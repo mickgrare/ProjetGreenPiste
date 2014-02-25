@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="fr"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Projet Skeleton( )</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	
+
+	<!-- JS
+  ================================================== -->
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="js/lean-slider.js"></script>
+  
+  <link rel="stylesheet" type="text/css" media="all" href="css/lean-slider.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" media="all" href="css/sample-styles.css" type="text/css" />
+  
+  	<!-- CSS
+  ================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+  
+  	<link rel="stylesheet" type="text/css" media="all" href="css/styles.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/skeleton.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/layout.css" />
+	<!-- Menu -->
+	<link rel="stylesheet" type="text/css" media="all" href="css/menu.css" />
+	<!-- Slide -->
+	<link rel="stylesheet" type="text/css" media="all" href="css/sample-styles.css" type="text/css" />
+	
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+		
+	</script>
+
+     <script type="text/javascript">
+    $(document).ready(function() {
+        var slider = $('#slider').leanSlider({
+            directionNav: '#slider-direction-nav',
+            controlNav: '#slider-control-nav'
+        });
+    });
+    </script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+
+</head>
+<body>
+
+		
+<!-- 4+7+5 -->
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+	<header>
+	<div class="container">
+	
+	
+
+		<!-- Beandeau/logo/Panier
+	================================================== -->
+		<div id="header"> 
+		<div class="three columns ">
+		
+
+			<div class="logo">
+					<img src="images/logo.png">
+		    </div>
+		
+		</div>
+		
+		<div class="seven columns ">
+	
+
+			<h2 class="phrase">'en route vers le commerce <span>responsable'</span></h2>
+
+			
+		</div>
+		
+		<div class="six columns  ">
+		
+		<div class="headBloc3">	
+				<div class="info">
+					<a href="#">mon compte</a>  -  <a href="#">ma liste</a> - <a href="#">mon panier(0)</a>
+				</div>
+				
+			<div class="headText">
+				<div class="search">
+				Que recherchez-vous ?</br>
+				</div>
+				
+				<div class="question">
+				
+				> une question ou besoin d'aide ?
+				<p> Appelez-nous au <span>008 200 427 429</span></br>(Appel gratuit depuis un poste fixe en France métropolitaine</p>
+				</div>
+			</div>
+		</div>	
+		</div>
+		</div>
+		
+			
+			
+			
+
+			
+		
+		
+		<!-- Menu
+	================================================== -->
+		
+	</div>
+	
+<div id="menu">
+
+	<nav class="clearfix">
+			<ul class="clearfix">
+				<li><a href="#">L</a></li>
+				<li><a href="#">Maison</a></li>
+				<li><a href="#">Mode</a></li>
+				<li><a href="#">Enfants</a></li>
+				<li><a href="#">Beauté</a></li>
+				<li><a href="#">Plein air</a></li>	
+				<li><a href="#">Loisirs</a></li>	
+				<li><a href="#">Enérgie</a></li>	
+				<li><a href="#">Cadeaux</a></li>	
+				<li><a href="#">Nos partenaires</a></li>	
+			</ul>
+			
+		<a href="#" id="pull">Menu <img src="nav-icon.png" style="width:20px; height:20px;"></a>
+	</nav>
+</div>
+</div>
+			
+		</div>
+		</div>
+		</header>
+		
+		<div class="container">
+		
+		<!-- Slide
+	================================================== -->
+		
+		<div class="sixteen columns">
+		
+    <div class="slider-wrapper">
+        <div id="slider">
+            <div class="slide1">
+                <img src="images/slide-HP02.jpg" alt="" />
+            </div>
+            <div class="slide2">
+                <img src="images/slide-HP04.jpg" alt="" />
+            </div>
+              <div class="slide3">
+                <img src="images/slide-HP04.jpg" alt="" />
+            </div>
+			   <div class="slide4">
+                <img src="images/slide-HP04.jpg" alt="" />
+            </div>
+        </div>
+        <div id="slider-direction-nav"></div>
+        <div id="slider-control-nav"></div>
+    </div>
+
+			
+			
+		</div>
+		
+				<!-- Title 1
+	================================================== -->
+	
+	
+			<div class="sixteen columns">
+		
+			<div id="title1">
+
+			<h1> Nos Meilleur ventes </h1>
+
+			</div>
+			
+		</div>
+				<!-- Block1
+	================================================== -->	
+
+	<div id="troisBloc">
+		<div class="one-third column">
+		
+			<div id="bloc1"> 
+
+			<h2>Le produit phare de la semaine   <h2>
+			<img src="images/image-v.png">
+			<div class="textImageG"><a href="#">+ d'info</a></div>
+			<div class="textImageD"><a href="#">Mise au panier</a></div>
+			</div>
+		
+		</div>
+		
+			
+				<!-- Block2
+	================================================== -->
+		<div class="one-third column">
+	
+			<div id="bloc2"> 
+
+			<h2>Notre producteur à l'honneur <h2>
+			<img src="images/image-v2.png">
+			<p> Illud tamen te esse admonitum volo, primum ut qualis es talem te esse libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas </p>
+			<div class="textImageC"><a href="#">Voir sa fiche</a></div>
+			
+
+			</div>
+			
+		</div>
+						<!-- Block3
+	================================================== -->
+	
+		<div class="one-third column">
+		
+			<div id="bloc3"> 
+			
+			<h2>Actus à suivre..<h2>
+			<img src="images/image-v3.png">
+			
+			
+			</div>
+			
+		</div>
+		
+	</div>	
+						<!-- Title 2
+	================================================== -->
+	
+	
+			<div class="sixteen columns">
+		
+			<div id="title2">
+
+			<h1> Nos nouveautés </h1>
+
+			</div>
+			
+		</div>
+						<!-- Second Block1
+	================================================== -->
+	
+		<div class="four columns">
+		
+			<div id="Sbloc1">
+
+			<img src="images/produits.jpg">
+
+			</div>
+		
+		</div>
+		
+			
+				<!-- Block2
+	================================================== -->
+		<div class="four columns">
+	
+			<div id="Sbloc2">
+
+			<img src="images/produits.jpg">
+
+			</div>
+			
+		</div>
+						<!-- Block3
+	================================================== -->
+	
+		<div class="four columns">
+		
+			<div id="Sbloc3"> 
+
+			<img src="images/produits.jpg">
+
+			</div>
+			
+		</div>
+		
+					<!-- Block4
+	================================================== -->
+			<div class="four columns">
+		
+			<div id="Sbloc4"> 
+
+			<img src="images/produits.jpg">
+			
+			</div>
+			
+			</div>
+						<!-- Block1
+	================================================== -->
+		
+			<div class="four columns">
+		
+			<div id="Sbloc1"> 
+			
+			<img src="images/produits.jpg">
+			
+			</div>
+		
+			</div>
+		
+			
+				<!-- Block2
+	================================================== -->
+		<div class="four columns">
+	
+			<div id="Sbloc2"> 
+
+			<img src="images/produits.jpg">
+			
+			</div>
+			
+		</div>
+						<!-- Block3
+	================================================== -->
+	
+		<div class="four columns">
+		
+			<div id="Sbloc3">
+
+			<img src="images/produits.jpg">
+			
+			</div>
+			
+		</div>
+		
+					<!-- Block4
+	================================================== -->
+			<div class="four columns">
+		
+			<div id="Sbloc4"> 	
+			
+			<img src="images/produits.jpg">
+			
+			</div>
+			
+		</div>
+					<!-- Footer
+					
+	================================================== -->
+			<div class="sixteen columns">
+		
+			<div id="footerv1">
+
+			<img src="images/menu_bas.jpg">
+			
+			</div>
+			
+			</div>
+			
+			
+			</div>
+			<footer>
+			<div class="container">
+					<!-- Footer2
+					
+	================================================== -->
+			<div class="sixteen columns">
+		
+			<div id="footerv2"> 
+
+			<img src="images/footer.jpg">
+
+			</div>
+			
+			</div>
+			
+			</div>
+			</footer>
+
+	</div><!-- container -->
+
+</body>
+</html>
