@@ -1,13 +1,13 @@
 ProjetGreenPiste
 ================
 
-Interfaces :
-  header : ok
-  menu : ok
-  slide : ok
-  trois block : ok
-  Second quatre block : Bientot !
-  Footer : Bientot !
+Interfaces :</br>
+  header : ok</br>
+  menu : ok</br>
+  slide : ok</br>
+  trois block : ok</br>
+  Second quatre block : Bientot !</br>
+  Footer : Bientot !</br>
   
   
   
