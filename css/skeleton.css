@@ -180,6 +180,21 @@
         #troisBloc {
         padding-left: 5px;
         }
+        #huitBloc {
+        padding-left: 5px;
+        }
+
+.footerFloat1 {
+font-size: 30px
+}
+.footerFloat2 {
+
+font-size: 30px;
+}
+.footerFloat3 {
+font-size: 30px
+}
+
 
     }
 
@@ -215,6 +230,9 @@
         .container .two-thirds.column { width: 420px; }
 
         #troisBloc {
+        padding-left: 5px;
+        }
+        #huitBloc {
         padding-left: 5px;
         }
     }

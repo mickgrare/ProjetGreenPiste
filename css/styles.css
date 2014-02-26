@@ -71,6 +71,10 @@ height:7%;
 #troisBloc {
 padding-left: 30px;
 }
+#huitBloc {
+padding-left: 30px;
+}
+
 
 #bloc1 a, #bloc2 a {
 color:#fff;
@@ -116,30 +120,48 @@ width:95%;
 height:95%;
 margin-top:10px;
 }
+
+.StextImageG {
+margin-top: -36px;
+margin-left: 129px;
+color: #fff;
+font-weight: bold;
+
+}
+.StextImageD {
+margin-top: -22px;
+margin-left: 9px;
+color: #492626;
+font-weight: bold;
+font-size: 12px;
+}
+
 #Sbloc1{
-width:100%;
-height:100%;
+width:95%;
+height:95%;
 margin-top:20px;
 }
 #Sbloc2{
-width:100%;
-height:100%;
+width:95%;
+height:95%;
 margin-top:20px;
 }
 #Sbloc3{
-width:100%;
-height:100%;
+width:95%;
+height:95%;
 margin-top:20px;
 }
 #Sbloc4{
-width:100%;
-height:100%;
+width:95%;
+height:95%;
 margin-top:20px;
 }
 
 #footerv1 {
-width:100%;
-height:100%;
+margin-top: 40px;
+margin-bottom: 40px;
+width: 100%;
+height: 100%;
 }
 #footerv2 {
 width:100%;
@@ -163,5 +185,29 @@ color: #fff;
 font-weight: bold;
 }
 
-
-
+.footerFloat1 {
+float: left;
+margin-top: 55px;
+margin-left: 40px;
+}
+.footerFloat2 {
+float: right;
+margin-top: 55px;
+margin-right: 8px;
+margin-bottom: 50px;
+}
+.footerFloat3 {
+float: right;
+margin-top: 55px;
+margin-left: 21px;
+}
+.FooterG {
+float: left;
+}
+.footerG img {
+width: 50%;
+height:50%;
+}
+.footerD {
+float: right;
+}
